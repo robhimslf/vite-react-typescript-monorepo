@@ -1,0 +1,21 @@
+{
+    "name": "vite-react-typescript-monorepo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "pnpm --filter @example/core-app dev",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/react": "^18.2.15",
+        "typescript": "^5.2.2",
+        "typescript-node": "^0.1.3"
+    },
+    "dependencies": {
+        "react": "^18.2.0"
+    }
+}
